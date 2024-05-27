@@ -1,0 +1,1048 @@
+[
+    {
+        "name": "Wall Vs Beam",
+        "tolerance": 0.009999999776482582,
+        "a": [
+            {
+                "file": "/home/club_house/ifc/WORKING_club_house.ifc",
+                "selector": ".IfcWall",
+                "mode": "i"
+            }
+        ],
+        "b": [
+            {
+                "file": "/home/ifc/WORKING_club_house.ifc",
+                "selector": ".IfcBeam",
+                "mode": "i"
+            }
+        ],
+        "clashes": {
+            "3bgkBDNkP7GxM6oOyPjn4g-1Jdb$cSkfA$QWVJrQxb_UB": {
+                "a_global_id": "3bgkBDNkP7GxM6oOyPjn4g",
+                "b_global_id": "1Jdb$cSkfA$QWVJrQxb_UB",
+                "a_ifc_class": "IfcWall",
+                "b_ifc_class": "IfcBeam",
+                "a_name": "WAL_150-0027",
+                "b_name": "B_200x450-0112",
+                "normal": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "position": [
+                    16.7199993133545,
+                    15.300000190734899,
+                    12.60000028610233
+                ],
+                "penetration_depth": 2.3500003814697994
+            },
+            "3bgkBDNkP7GxM6oOyPjn4g-2GayTfu6PBV9HruT1fK5lG": {
+                "a_global_id": "3bgkBDNkP7GxM6oOyPjn4g",
+                "b_global_id": "2GayTfu6PBV9HruT1fK5lG",
+                "a_ifc_class": "IfcWall",
+                "b_ifc_class": "IfcBeam",
+                "a_name": "WAL_150-0027",
+                "b_name": "B_200x450-0111",
+                "normal": [
+                    0.0,
+                    -1.0,
+                    0.0
+                ],
+                "position": [
+                    19.070000076293898,
+                    15.1500001907349,
+                    12.610428196861172
+                ],
+                "penetration_depth": 2.299999618530201
+            },
+            "1IzhwKS4D7SQ_u_jiEp8Us-09jNl2dprEzvPHVGRd6wZ0": {
+                "a_global_id": "1IzhwKS4D7SQ_u_jiEp8Us",
+                "b_global_id": "09jNl2dprEzvPHVGRd6wZ0",
+                "a_ifc_class": "IfcWall",
+                "b_ifc_class": "IfcBeam",
+                "a_name": "WAL_150-0136",
+                "b_name": "B_200x450-0077",
+                "normal": [
+                    0.0,
+                    -1.0,
+                    0.0
+                ],
+                "position": [
+                    19.262208088961515,
+                    12.949999809265101,
+                    6.640909364006733
+                ],
+                "penetration_depth": -0.0
+            },
+            "1l1U_UhcDF4wctF5pC$$vh-2EvAhUkpLAnQ1ctfMFtCUy": {
+                "a_global_id": "1l1U_UhcDF4wctF5pC$$vh",
+                "b_global_id": "2EvAhUkpLAnQ1ctfMFtCUy",
+                "a_ifc_class": "IfcWall",
+                "b_ifc_class": "IfcBeam",
+                "a_name": "WAL_150-0035",
+                "b_name": "B_200x450-0025",
+                "normal": [
+                    -1.0,
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    6.15000009536743,
+                    3.48499999046326,
+                    9.60000028610229
+                ],
+                "penetration_depth": 0.049999809265139916
+            },
+            "1l1U_UhcDF4wctF5pC$$vh-0wX4eU615AChApMChID26h": {
+                "a_global_id": "1l1U_UhcDF4wctF5pC$$vh",
+                "b_global_id": "0wX4eU615AChApMChID26h",
+                "a_ifc_class": "IfcWall",
+                "b_ifc_class": "IfcBeam",
+                "a_name": "WAL_150-0035",
+                "b_name": "B_200x450-0015",
+                "normal": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "position": [
+                    6.199999809265139,
+                    3.6349999904632595,
+                    9.84642905410462
+                ],
+                "penetration_depth": 0.10000000000000009
+            },
+            "0aEoatqQ94oxZiP$ypxhDS-1WfujhctvCc9CAOr4qcnis": {
+                "a_global_id": "0aEoatqQ94oxZiP$ypxhDS",
+                "b_global_id": "1WfujhctvCc9CAOr4qcnis",
+                "a_ifc_class": "IfcWall",
+                "b_ifc_class": "IfcBeam",
+                "a_name": "WAL_150-0015",
+                "b_name": "B_200x450-0110",
+                "normal": [
+                    -1.0,
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    8.44999980926514,
+                    15.1500001907349,
+                    12.600000286102329
+                ],
+                "penetration_depth": 3.81469719812344e-07
+            },
+            "0aEoatqQ94oxZiP$ypxhDS-0WWvJeUzLFJAWZVneRlFDU": {
+                "a_global_id": "0aEoatqQ94oxZiP$ypxhDS",
+                "b_global_id": "0WWvJeUzLFJAWZVneRlFDU",
+                "a_ifc_class": "IfcWall",
+                "b_ifc_class": "IfcBeam",
+                "a_name": "WAL_150-0015",
+                "b_name": "B_200x450-0114",
+                "normal": [
+                    0.0,
+                    -1.0,
+                    0.0
+                ],
+                "position": [
+                    10.299999618530302,
+                    15.1500001907349,
+                    12.632905376922412
+                ],
+                "penetration_depth": 2.299999618530201
+            },
+            "31b8Ip3Nv0Fgk8pcWuhyA$-06i09Xh3n7NRAMuvrI1cKW": {
+                "a_global_id": "31b8Ip3Nv0Fgk8pcWuhyA$",
+                "b_global_id": "06i09Xh3n7NRAMuvrI1cKW",
+                "a_ifc_class": "IfcWall",
+                "b_ifc_class": "IfcBeam",
+                "a_name": "WAL_150-0004",
+                "b_name": "B_200x450-0116",
+                "normal": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "position": [
+                    6.199999809265139,
+                    3.6349999904632595,
+                    12.846429054104663
+                ],
+                "penetration_depth": 0.10000000000000009
+            },
+            "31b8Ip3Nv0Fgk8pcWuhyA$-0HNKlaVG9BGw_jzVx2iVtB": {
+                "a_global_id": "31b8Ip3Nv0Fgk8pcWuhyA$",
+                "b_global_id": "0HNKlaVG9BGw_jzVx2iVtB",
+                "a_ifc_class": "IfcWall",
+                "b_ifc_class": "IfcBeam",
+                "a_name": "WAL_150-0004",
+                "b_name": "B_200x450-0126",
+                "normal": [
+                    -1.0,
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    6.15000009536743,
+                    3.48499999046326,
+                    12.600000286102329
+                ],
+                "penetration_depth": 0.049999809265139916
+            },
+            "1WivMeRfT5MvKyjGWkXkDZ-0XP9Lrw69BRR3ZJBOI0TTd": {
+                "a_global_id": "1WivMeRfT5MvKyjGWkXkDZ",
+                "b_global_id": "0XP9Lrw69BRR3ZJBOI0TTd",
+                "a_ifc_class": "IfcWall",
+                "b_ifc_class": "IfcBeam",
+                "a_name": "WAL_140-0002",
+                "b_name": "B_200x450-0080",
+                "normal": [
+                    0.0,
+                    -1.0,
+                    0.0
+                ],
+                "position": [
+                    10.486630726710604,
+                    12.949999809265101,
+                    6.640909364006732
+                ],
+                "penetration_depth": -0.0
+            },
+            "1WivMeRfT5MvKyjGWkXkDZ-3xpTtzm4j0ye5pRt_Jet28": {
+                "a_global_id": "1WivMeRfT5MvKyjGWkXkDZ",
+                "b_global_id": "3xpTtzm4j0ye5pRt_Jet28",
+                "a_ifc_class": "IfcWall",
+                "b_ifc_class": "IfcBeam",
+                "a_name": "WAL_140-0002",
+                "b_name": "B_200x450-0100",
+                "normal": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "position": [
+                    10.351538250262958,
+                    17.4499992370605,
+                    6.900000190734861
+                ],
+                "penetration_depth": 0.2999999046325703
+            },
+            "1AeVwhHJb1KwbkDPyF7RhV-1ILptcXQ16efviMx8e_utl": {
+                "a_global_id": "1AeVwhHJb1KwbkDPyF7RhV",
+                "b_global_id": "1ILptcXQ16efviMx8e_utl",
+                "a_ifc_class": "IfcWall",
+                "b_ifc_class": "IfcBeam",
+                "a_name": "WAL_200-0065",
+                "b_name": "B_200x450-0055",
+                "normal": [
+                    -1.0,
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    10.8999996185303,
+                    12.757692403059707,
+                    3.6346153726944554
+                ],
+                "penetration_depth": 0.0
+            },
+            "13ZVANW1157eFb0_gHK_zk-0_SD$fDp96ROilrMZH7$dZ": {
+                "a_global_id": "13ZVANW1157eFb0_gHK_zk",
+                "b_global_id": "0_SD$fDp96ROilrMZH7$dZ",
+                "a_ifc_class": "IfcWall",
+                "b_ifc_class": "IfcBeam",
+                "a_name": "WAL_150-0153",
+                "b_name": "B_200x450-0069",
+                "normal": [
+                    0.0,
+                    1.0,
+                    -0.0
+                ],
+                "position": [
+                    10.700000190734901,
+                    9.470000267028812,
+                    6.600000286102292
+                ],
+                "penetration_depth": 2.0250000953674308
+            },
+            "13ZVANW1157eFb0_gHK_zk-3CKL$1iZn0vBREaubvH897": {
+                "a_global_id": "13ZVANW1157eFb0_gHK_zk",
+                "b_global_id": "3CKL$1iZn0vBREaubvH897",
+                "a_ifc_class": "IfcWall",
+                "b_ifc_class": "IfcBeam",
+                "a_name": "WAL_150-0153",
+                "b_name": "B_200x450-0081",
+                "normal": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "position": [
+                    10.0,
+                    9.47000026702881,
+                    6.600000286102292
+                ],
+                "penetration_depth": 3.8146973047048505e-07
+            },
+            "3x9mRN8j14xhmuMvtMOozG-39URzO6Rb7mOCycTSpfHXj": {
+                "a_global_id": "3x9mRN8j14xhmuMvtMOozG",
+                "b_global_id": "39URzO6Rb7mOCycTSpfHXj",
+                "a_ifc_class": "IfcWall",
+                "b_ifc_class": "IfcBeam",
+                "a_name": "WAL_150-0114",
+                "b_name": "B_200x450-0083",
+                "normal": [
+                    1.0,
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    8.55000019073486,
+                    5.88499999046326,
+                    6.600000286102291
+                ],
+                "penetration_depth": 2.3500003814697195
+            },
+            "3x9mRN8j14xhmuMvtMOozG-27Ihypo0z20Qy39wIbDA7N": {
+                "a_global_id": "3x9mRN8j14xhmuMvtMOozG",
+                "b_global_id": "27Ihypo0z20Qy39wIbDA7N",
+                "a_ifc_class": "IfcWall",
+                "b_ifc_class": "IfcBeam",
+                "a_name": "WAL_150-0114",
+                "b_name": "B_200x450-0082",
+                "normal": [
+                    -1.0,
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    8.400000190734861,
+                    3.7349999904632605,
+                    6.600000286102291
+                ],
+                "penetration_depth": 2.299999618530281
+            },
+            "2I_m28tNrCSPhZ5VkBrr2X-1WfujhctvCc9CAOr4qcnis": {
+                "a_global_id": "2I_m28tNrCSPhZ5VkBrr2X",
+                "b_global_id": "1WfujhctvCc9CAOr4qcnis",
+                "a_ifc_class": "IfcWall",
+                "b_ifc_class": "IfcBeam",
+                "a_name": "WAL_150-0014",
+                "b_name": "B_200x450-0110",
+                "normal": [
+                    -1.0,
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    8.45000038146973,
+                    12.949999809265101,
+                    12.640908993374241
+                ],
+                "penetration_depth": 0.1999998092651296
+            },
+            "33a37tUADEox3ZP3RKkgaH-1JgW2l1eb6GRHtdE5u0DDD": {
+                "a_global_id": "33a37tUADEox3ZP3RKkgaH",
+                "b_global_id": "1JgW2l1eb6GRHtdE5u0DDD",
+                "a_ifc_class": "IfcWall",
+                "b_ifc_class": "IfcBeam",
+                "a_name": "WAL_150-0057",
+                "b_name": "B_200x450-0011",
+                "normal": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "position": [
+                    16.7199993133545,
+                    15.300000190734899,
+                    9.60000028610229
+                ],
+                "penetration_depth": 2.3500003814697994
+            },
+            "33a37tUADEox3ZP3RKkgaH-17UErGekL1dhbaAfzvguRA": {
+                "a_global_id": "33a37tUADEox3ZP3RKkgaH",
+                "b_global_id": "17UErGekL1dhbaAfzvguRA",
+                "a_ifc_class": "IfcWall",
+                "b_ifc_class": "IfcBeam",
+                "a_name": "WAL_150-0057",
+                "b_name": "B_200x450-0010",
+                "normal": [
+                    0.0,
+                    -1.0,
+                    0.0
+                ],
+                "position": [
+                    19.070000076293898,
+                    15.1500001907349,
+                    9.610428196861132
+                ],
+                "penetration_depth": 2.299999618530201
+            },
+            "35Q20$ci10fOZZp5W76t_H-3YfhYRLE97bOOJL8HpIDUF": {
+                "a_global_id": "35Q20$ci10fOZZp5W76t_H",
+                "b_global_id": "3YfhYRLE97bOOJL8HpIDUF",
+                "a_ifc_class": "IfcWall",
+                "b_ifc_class": "IfcBeam",
+                "a_name": "WAL_150-0046",
+                "b_name": "B_200x450-0013",
+                "normal": [
+                    0.0,
+                    -1.0,
+                    0.0
+                ],
+                "position": [
+                    10.299999618530302,
+                    15.1500001907349,
+                    9.632905376922372
+                ],
+                "penetration_depth": 2.299999618530201
+            },
+            "35Q20$ci10fOZZp5W76t_H-3l5AuOyA1AgPVvhVz2PoXZ": {
+                "a_global_id": "35Q20$ci10fOZZp5W76t_H",
+                "b_global_id": "3l5AuOyA1AgPVvhVz2PoXZ",
+                "a_ifc_class": "IfcWall",
+                "b_ifc_class": "IfcBeam",
+                "a_name": "WAL_150-0046",
+                "b_name": "B_200x450-0009",
+                "normal": [
+                    -1.0,
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    8.44999980926514,
+                    15.1500001907349,
+                    9.60000028610229
+                ],
+                "penetration_depth": 3.81469719812344e-07
+            },
+            "1oE2nTSHHAx8JOg3yUc0JG-2QYJS1D4b2aRMKs52wVREL": {
+                "a_global_id": "1oE2nTSHHAx8JOg3yUc0JG",
+                "b_global_id": "2QYJS1D4b2aRMKs52wVREL",
+                "a_ifc_class": "IfcWall",
+                "b_ifc_class": "IfcBeam",
+                "a_name": "WAL_150-0076",
+                "b_name": "B_200x450-0103",
+                "normal": [
+                    0.0,
+                    1.0,
+                    -0.0
+                ],
+                "position": [
+                    10.700000190734903,
+                    9.470000267028812,
+                    12.60000028610233
+                ],
+                "penetration_depth": 2.0250000953674308
+            },
+            "1oE2nTSHHAx8JOg3yUc0JG-1msRkVqNL9fA06fQ4JA6oR": {
+                "a_global_id": "1oE2nTSHHAx8JOg3yUc0JG",
+                "b_global_id": "1msRkVqNL9fA06fQ4JA6oR",
+                "a_ifc_class": "IfcWall",
+                "b_ifc_class": "IfcBeam",
+                "a_name": "WAL_150-0076",
+                "b_name": "B_200x450-0115",
+                "normal": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "position": [
+                    10.0,
+                    9.47000026702881,
+                    12.60000028610233
+                ],
+                "penetration_depth": 3.8146973047048505e-07
+            },
+            "1ejv3Hw4j35hK_7DikJWiL-0NptOo3dP3uOxIZqNt4XxM": {
+                "a_global_id": "1ejv3Hw4j35hK_7DikJWiL",
+                "b_global_id": "0NptOo3dP3uOxIZqNt4XxM",
+                "a_ifc_class": "IfcWall",
+                "b_ifc_class": "IfcBeam",
+                "a_name": "WAL_150-0103",
+                "b_name": "B_200x450-0061",
+                "normal": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "position": [
+                    20.206122853804587,
+                    17.449999237060503,
+                    3.8999999880790712
+                ],
+                "penetration_depth": 0.30000000000000027
+            },
+            "1ejv3Hw4j35hK_7DikJWiL-2dzIs1LN14zO4ym2S$XFrQ": {
+                "a_global_id": "1ejv3Hw4j35hK_7DikJWiL",
+                "b_global_id": "2dzIs1LN14zO4ym2S$XFrQ",
+                "a_ifc_class": "IfcWall",
+                "b_ifc_class": "IfcBeam",
+                "a_name": "WAL_150-0103",
+                "b_name": "B_200x450-0053",
+                "normal": [
+                    1.0,
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    20.3500003814697,
+                    12.9500003814697,
+                    3.62290337744551
+                ],
+                "penetration_depth": 3.430000305175799
+            },
+            "1rVpBdL2TC5uK8olaDEOxE-0OiQFDp89FueHKVnP1MhVF": {
+                "a_global_id": "1rVpBdL2TC5uK8olaDEOxE",
+                "b_global_id": "0OiQFDp89FueHKVnP1MhVF",
+                "a_ifc_class": "IfcWall",
+                "b_ifc_class": "IfcBeam",
+                "a_name": "WAL_150-0122",
+                "b_name": "B_200x450-0091",
+                "normal": [
+                    -1.0,
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    6.15000009536743,
+                    9.32000026702881,
+                    6.600000286102292
+                ],
+                "penetration_depth": 0.049999809265139916
+            },
+            "1rVpBdL2TC5uK8olaDEOxE-3CKL$1iZn0vBREaubvH897": {
+                "a_global_id": "1rVpBdL2TC5uK8olaDEOxE",
+                "b_global_id": "3CKL$1iZn0vBREaubvH897",
+                "a_ifc_class": "IfcWall",
+                "b_ifc_class": "IfcBeam",
+                "a_name": "WAL_150-0122",
+                "b_name": "B_200x450-0081",
+                "normal": [
+                    0.0,
+                    -1.0,
+                    0.0
+                ],
+                "position": [
+                    6.19999980926514,
+                    9.32000026702881,
+                    6.712501144409181
+                ],
+                "penetration_depth": 0.14999961853026988
+            },
+            "18OfFb5gb4uwCprty1lidr-3l5AuOyA1AgPVvhVz2PoXZ": {
+                "a_global_id": "18OfFb5gb4uwCprty1lidr",
+                "b_global_id": "3l5AuOyA1AgPVvhVz2PoXZ",
+                "a_ifc_class": "IfcWall",
+                "b_ifc_class": "IfcBeam",
+                "a_name": "WAL_150-0045",
+                "b_name": "B_200x450-0009",
+                "normal": [
+                    -1.0,
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    8.45000038146973,
+                    12.949999809265101,
+                    9.6409089933742
+                ],
+                "penetration_depth": 0.1999998092651296
+            },
+            "1skqwuawH4yxEmEpMLkbh$-3vqJcFs59CB9KhSKmuxoyJ": {
+                "a_global_id": "1skqwuawH4yxEmEpMLkbh$",
+                "b_global_id": "3vqJcFs59CB9KhSKmuxoyJ",
+                "a_ifc_class": "IfcWall",
+                "b_ifc_class": "IfcBeam",
+                "a_name": "WAL_150-0135",
+                "b_name": "B_200x450-0078",
+                "normal": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "position": [
+                    16.7199993133545,
+                    15.300000190734902,
+                    6.600000286102292
+                ],
+                "penetration_depth": 2.3500003814697994
+            },
+            "1skqwuawH4yxEmEpMLkbh$-09jNl2dprEzvPHVGRd6wZ0": {
+                "a_global_id": "1skqwuawH4yxEmEpMLkbh$",
+                "b_global_id": "09jNl2dprEzvPHVGRd6wZ0",
+                "a_ifc_class": "IfcWall",
+                "b_ifc_class": "IfcBeam",
+                "a_name": "WAL_150-0135",
+                "b_name": "B_200x450-0077",
+                "normal": [
+                    0.0,
+                    -1.0,
+                    0.0
+                ],
+                "position": [
+                    19.0700000762939,
+                    15.1500001907349,
+                    6.610428196861133
+                ],
+                "penetration_depth": 2.299999618530201
+            },
+            "2cEsfEMwv1uOsOU72cdRwy-0XP9Lrw69BRR3ZJBOI0TTd": {
+                "a_global_id": "2cEsfEMwv1uOsOU72cdRwy",
+                "b_global_id": "0XP9Lrw69BRR3ZJBOI0TTd",
+                "a_ifc_class": "IfcWall",
+                "b_ifc_class": "IfcBeam",
+                "a_name": "WAL_150-0124",
+                "b_name": "B_200x450-0080",
+                "normal": [
+                    0.0,
+                    -1.0,
+                    0.0
+                ],
+                "position": [
+                    10.2999996185303,
+                    15.150000190734902,
+                    6.6329053769223725
+                ],
+                "penetration_depth": 2.299999618530201
+            },
+            "2cEsfEMwv1uOsOU72cdRwy-3JppVTZZ5899fPdWiS_arI": {
+                "a_global_id": "2cEsfEMwv1uOsOU72cdRwy",
+                "b_global_id": "3JppVTZZ5899fPdWiS_arI",
+                "a_ifc_class": "IfcWall",
+                "b_ifc_class": "IfcBeam",
+                "a_name": "WAL_150-0124",
+                "b_name": "B_200x450-0076",
+                "normal": [
+                    -1.0,
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    8.44999980926514,
+                    15.1500001907349,
+                    6.600000286102292
+                ],
+                "penetration_depth": 3.81469719812344e-07
+            },
+            "20i9wHiqr5mhAC314SicmQ-0o22l81T93dxtxp0Dwbc_P": {
+                "a_global_id": "20i9wHiqr5mhAC314SicmQ",
+                "b_global_id": "0o22l81T93dxtxp0Dwbc_P",
+                "a_ifc_class": "IfcWall",
+                "b_ifc_class": "IfcBeam",
+                "a_name": "WAL_150-0099",
+                "b_name": "B_200x450-0040",
+                "normal": [
+                    -1.947071837093977e-07,
+                    -0.9999999999999811,
+                    0.0
+                ],
+                "position": [
+                    8.59999942779541,
+                    12.949999809265101,
+                    3.712501704692832
+                ],
+                "penetration_depth": 9.735507735261382e-09
+            },
+            "3u6s9jAzbALuIsZQwP5pJv-3DcFJECaf1Z8JvfalHp0mo": {
+                "a_global_id": "3u6s9jAzbALuIsZQwP5pJv",
+                "b_global_id": "3DcFJECaf1Z8JvfalHp0mo",
+                "a_ifc_class": "IfcWall",
+                "b_ifc_class": "IfcBeam",
+                "a_name": "WAL_150-0096",
+                "b_name": "B_200x450-0057",
+                "normal": [
+                    0.0,
+                    -1.0,
+                    0.0
+                ],
+                "position": [
+                    6.19999990463257,
+                    9.9000001907349,
+                    3.5999999880790714
+                ],
+                "penetration_depth": 2.850999599456749
+            },
+            "3u6s9jAzbALuIsZQwP5pJv-15qpflBFP9ZPhim5x3lo$$": {
+                "a_global_id": "3u6s9jAzbALuIsZQwP5pJv",
+                "b_global_id": "15qpflBFP9ZPhim5x3lo$$",
+                "a_ifc_class": "IfcWall",
+                "b_ifc_class": "IfcBeam",
+                "a_name": "WAL_150-0096",
+                "b_name": "B_200x450-0042",
+                "normal": [
+                    0.0,
+                    -1.0,
+                    0.0
+                ],
+                "position": [
+                    6.19999980926514,
+                    9.9000001907349,
+                    3.759375631809291
+                ],
+                "penetration_depth": 0.1499996185302397
+            },
+            "1613oLJv19zeOBo7XS1m7E-27Ihypo0z20Qy39wIbDA7N": {
+                "a_global_id": "1613oLJv19zeOBo7XS1m7E",
+                "b_global_id": "27Ihypo0z20Qy39wIbDA7N",
+                "a_ifc_class": "IfcWall",
+                "b_ifc_class": "IfcBeam",
+                "a_name": "WAL_150-0113",
+                "b_name": "B_200x450-0082",
+                "normal": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "position": [
+                    6.19999980926514,
+                    3.63499999046326,
+                    6.8464290541046235
+                ],
+                "penetration_depth": 0.10000000000000009
+            },
+            "1613oLJv19zeOBo7XS1m7E-0QKrybmIbEguXCHVl6JvHy": {
+                "a_global_id": "1613oLJv19zeOBo7XS1m7E",
+                "b_global_id": "0QKrybmIbEguXCHVl6JvHy",
+                "a_ifc_class": "IfcWall",
+                "b_ifc_class": "IfcBeam",
+                "a_name": "WAL_150-0113",
+                "b_name": "B_200x450-0092",
+                "normal": [
+                    -1.0,
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    6.15000009536743,
+                    3.48499999046326,
+                    6.600000286102292
+                ],
+                "penetration_depth": 0.049999809265139916
+            },
+            "3FK2PRYWP9Yu48kd6ZlGfm-3CeKraCi9EnBB1dUE30znm": {
+                "a_global_id": "3FK2PRYWP9Yu48kd6ZlGfm",
+                "b_global_id": "3CeKraCi9EnBB1dUE30znm",
+                "a_ifc_class": "IfcWall",
+                "b_ifc_class": "IfcBeam",
+                "a_name": "WAL_150-0092",
+                "b_name": "B_200x450-0014",
+                "normal": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "position": [
+                    10.0,
+                    9.47000026702881,
+                    9.60000028610229
+                ],
+                "penetration_depth": 3.8146973047048505e-07
+            },
+            "3FK2PRYWP9Yu48kd6ZlGfm-1iw1gXCkX3RRY4H1P5PvlD": {
+                "a_global_id": "3FK2PRYWP9Yu48kd6ZlGfm",
+                "b_global_id": "1iw1gXCkX3RRY4H1P5PvlD",
+                "a_ifc_class": "IfcWall",
+                "b_ifc_class": "IfcBeam",
+                "a_name": "WAL_150-0092",
+                "b_name": "B_200x450-0002",
+                "normal": [
+                    0.0,
+                    1.0,
+                    -0.0
+                ],
+                "position": [
+                    10.700000190734903,
+                    9.470000267028812,
+                    9.600000286102292
+                ],
+                "penetration_depth": 2.0250000953674308
+            },
+            "1Ho5XsZ2zFAx$8o2ghcvTg-2GayTfu6PBV9HruT1fK5lG": {
+                "a_global_id": "1Ho5XsZ2zFAx$8o2ghcvTg",
+                "b_global_id": "2GayTfu6PBV9HruT1fK5lG",
+                "a_ifc_class": "IfcWall",
+                "b_ifc_class": "IfcBeam",
+                "a_name": "WAL_150-0028",
+                "b_name": "B_200x450-0111",
+                "normal": [
+                    0.0,
+                    -1.0,
+                    0.0
+                ],
+                "position": [
+                    19.26220808896151,
+                    12.949999809265101,
+                    12.640909364006772
+                ],
+                "penetration_depth": -0.0
+            },
+            "3i$bTq4HT7MeRDLp9J9wcI-2uzlsv6kbFsgUY0l1vGiEe": {
+                "a_global_id": "3i$bTq4HT7MeRDLp9J9wcI",
+                "b_global_id": "2uzlsv6kbFsgUY0l1vGiEe",
+                "a_ifc_class": "IfcWall",
+                "b_ifc_class": "IfcBeam",
+                "a_name": "WAL_140-0001",
+                "b_name": "B_200x450-0033",
+                "normal": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "position": [
+                    10.351538250262958,
+                    17.4499992370605,
+                    9.90000019073486
+                ],
+                "penetration_depth": 0.2999999046325694
+            },
+            "3i$bTq4HT7MeRDLp9J9wcI-3YfhYRLE97bOOJL8HpIDUF": {
+                "a_global_id": "3i$bTq4HT7MeRDLp9J9wcI",
+                "b_global_id": "3YfhYRLE97bOOJL8HpIDUF",
+                "a_ifc_class": "IfcWall",
+                "b_ifc_class": "IfcBeam",
+                "a_name": "WAL_140-0001",
+                "b_name": "B_200x450-0013",
+                "normal": [
+                    0.0,
+                    -1.0,
+                    0.0
+                ],
+                "position": [
+                    10.486630726710606,
+                    12.949999809265101,
+                    9.640909364006733
+                ],
+                "penetration_depth": -0.0
+            },
+            "1QvfovffDAVuinRnYe0t_p-0WWvJeUzLFJAWZVneRlFDU": {
+                "a_global_id": "1QvfovffDAVuinRnYe0t_p",
+                "b_global_id": "0WWvJeUzLFJAWZVneRlFDU",
+                "a_ifc_class": "IfcWall",
+                "b_ifc_class": "IfcBeam",
+                "a_name": "WAL_150-0016",
+                "b_name": "B_200x450-0114",
+                "normal": [
+                    0.0,
+                    -1.0,
+                    0.0
+                ],
+                "position": [
+                    10.492207631197854,
+                    12.9499998092651,
+                    12.640909364006772
+                ],
+                "penetration_depth": -0.0
+            },
+            "1QvfovffDAVuinRnYe0t_p-3SZKX0vVXCBPhZDqp4reNv": {
+                "a_global_id": "1QvfovffDAVuinRnYe0t_p",
+                "b_global_id": "3SZKX0vVXCBPhZDqp4reNv",
+                "a_ifc_class": "IfcWall",
+                "b_ifc_class": "IfcBeam",
+                "a_name": "WAL_150-0016",
+                "b_name": "B_200x450-0134",
+                "normal": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "position": [
+                    10.35164837051224,
+                    17.4499992370605,
+                    12.9000001907349
+                ],
+                "penetration_depth": 0.2999999046325694
+            },
+            "0flab_aUzDUAfhdhZq92l4-0nSyhpHuT8VvbCHUaz4XCt": {
+                "a_global_id": "0flab_aUzDUAfhdhZq92l4",
+                "b_global_id": "0nSyhpHuT8VvbCHUaz4XCt",
+                "a_ifc_class": "IfcWall",
+                "b_ifc_class": "IfcBeam",
+                "a_name": "WAL_150-0044",
+                "b_name": "B_200x450-0024",
+                "normal": [
+                    -1.0,
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    6.15000009536743,
+                    9.32000026702881,
+                    9.60000028610229
+                ],
+                "penetration_depth": 0.049999809265139916
+            },
+            "0flab_aUzDUAfhdhZq92l4-3CeKraCi9EnBB1dUE30znm": {
+                "a_global_id": "0flab_aUzDUAfhdhZq92l4",
+                "b_global_id": "3CeKraCi9EnBB1dUE30znm",
+                "a_ifc_class": "IfcWall",
+                "b_ifc_class": "IfcBeam",
+                "a_name": "WAL_150-0044",
+                "b_name": "B_200x450-0014",
+                "normal": [
+                    0.0,
+                    -1.0,
+                    0.0
+                ],
+                "position": [
+                    6.19999980926514,
+                    9.32000026702881,
+                    9.712501144409181
+                ],
+                "penetration_depth": 0.14999961853026988
+            },
+            "0yLKclo$f4exrqi0XDsy9R-0LgQ1$iH11tRVR$wBOudvP": {
+                "a_global_id": "0yLKclo$f4exrqi0XDsy9R",
+                "b_global_id": "0LgQ1$iH11tRVR$wBOudvP",
+                "a_ifc_class": "IfcWall",
+                "b_ifc_class": "IfcBeam",
+                "a_name": "WAL_150-0005",
+                "b_name": "B_200x450-0117",
+                "normal": [
+                    1.0,
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    8.55000019073486,
+                    5.884999990463261,
+                    12.600000286102329
+                ],
+                "penetration_depth": 2.3500003814697195
+            },
+            "0yLKclo$f4exrqi0XDsy9R-06i09Xh3n7NRAMuvrI1cKW": {
+                "a_global_id": "0yLKclo$f4exrqi0XDsy9R",
+                "b_global_id": "06i09Xh3n7NRAMuvrI1cKW",
+                "a_ifc_class": "IfcWall",
+                "b_ifc_class": "IfcBeam",
+                "a_name": "WAL_150-0005",
+                "b_name": "B_200x450-0116",
+                "normal": [
+                    -1.0,
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    8.40000019073486,
+                    3.73499999046326,
+                    12.60000028610233
+                ],
+                "penetration_depth": 2.299999618530281
+            },
+            "24Kz0$dFb7cwL9zBnjY6XJ-1msRkVqNL9fA06fQ4JA6oR": {
+                "a_global_id": "24Kz0$dFb7cwL9zBnjY6XJ",
+                "b_global_id": "1msRkVqNL9fA06fQ4JA6oR",
+                "a_ifc_class": "IfcWall",
+                "b_ifc_class": "IfcBeam",
+                "a_name": "WAL_150-0013",
+                "b_name": "B_200x450-0115",
+                "normal": [
+                    0.0,
+                    -1.0,
+                    0.0
+                ],
+                "position": [
+                    6.19999980926514,
+                    9.32000026702881,
+                    12.712501144409224
+                ],
+                "penetration_depth": 0.14999961853026988
+            },
+            "24Kz0$dFb7cwL9zBnjY6XJ-1aE7aMkS90c9x0wYLs8$dN": {
+                "a_global_id": "24Kz0$dFb7cwL9zBnjY6XJ",
+                "b_global_id": "1aE7aMkS90c9x0wYLs8$dN",
+                "a_ifc_class": "IfcWall",
+                "b_ifc_class": "IfcBeam",
+                "a_name": "WAL_150-0013",
+                "b_name": "B_200x450-0125",
+                "normal": [
+                    -1.0,
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    6.15000009536743,
+                    9.32000026702881,
+                    12.60000028610233
+                ],
+                "penetration_depth": 0.049999809265139916
+            },
+            "0H0H6WzDn7RAXT7oS7L0rO-3JppVTZZ5899fPdWiS_arI": {
+                "a_global_id": "0H0H6WzDn7RAXT7oS7L0rO",
+                "b_global_id": "3JppVTZZ5899fPdWiS_arI",
+                "a_ifc_class": "IfcWall",
+                "b_ifc_class": "IfcBeam",
+                "a_name": "WAL_150-0123",
+                "b_name": "B_200x450-0076",
+                "normal": [
+                    -1.0,
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    8.45000038146973,
+                    12.949999809265101,
+                    6.640908993374202
+                ],
+                "penetration_depth": 0.1999998092651296
+            },
+            "01ajQsTUfEHunuxWgiYEHw-17UErGekL1dhbaAfzvguRA": {
+                "a_global_id": "01ajQsTUfEHunuxWgiYEHw",
+                "b_global_id": "17UErGekL1dhbaAfzvguRA",
+                "a_ifc_class": "IfcWall",
+                "b_ifc_class": "IfcBeam",
+                "a_name": "WAL_150-0058",
+                "b_name": "B_200x450-0010",
+                "normal": [
+                    0.0,
+                    -1.0,
+                    0.0
+                ],
+                "position": [
+                    19.26220808896151,
+                    12.949999809265101,
+                    9.640909364006731
+                ],
+                "penetration_depth": -0.0
+            },
+            "1ZAc7Fcrf2jvcrha8Qr_yW-3xURhHKLrBjfHZO21d0U0b": {
+                "a_global_id": "1ZAc7Fcrf2jvcrha8Qr_yW",
+                "b_global_id": "3xURhHKLrBjfHZO21d0U0b",
+                "a_ifc_class": "IfcWall",
+                "b_ifc_class": "IfcBeam",
+                "a_name": "WAL_150-0036",
+                "b_name": "B_200x450-0016",
+                "normal": [
+                    1.0,
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    8.55000019073486,
+                    5.884999990463261,
+                    9.60000028610229
+                ],
+                "penetration_depth": 2.3500003814697195
+            },
+            "1ZAc7Fcrf2jvcrha8Qr_yW-0wX4eU615AChApMChID26h": {
+                "a_global_id": "1ZAc7Fcrf2jvcrha8Qr_yW",
+                "b_global_id": "0wX4eU615AChApMChID26h",
+                "a_ifc_class": "IfcWall",
+                "b_ifc_class": "IfcBeam",
+                "a_name": "WAL_150-0036",
+                "b_name": "B_200x450-0015",
+                "normal": [
+                    -1.0,
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    8.40000019073486,
+                    3.73499999046326,
+                    9.600000286102288
+                ],
+                "penetration_depth": 2.299999618530281
+            }
+        }
+    }
+]

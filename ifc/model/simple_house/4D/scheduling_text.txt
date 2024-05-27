@@ -1,0 +1,26 @@
+work breakdown structure
+
+all tasks must be grouped in a work schedule, either directly as a root or top-level task, or indirectly as a child or subtask of a parent task
+
+in construction scheduling, tasks may be nested many times to create the work breakdown structure, and the leaf tasks (with no more subtasks) are considered to be the activities with dates, whereas all parent tasks are part of the breakdown structure used for categorisation purposes
+
+IfcControl
+IfcProjectOrder
+
+IfcWorkControl
+IfcWorkPlan
+IfcWorkSchedule
+IfcTask
+IfcTaskTime
+
+IfcProcess
+IfcRelSequence
+
+IfcTimePeriod
+IfcRecurrencePattern
+IfcRecurrenceTypeEnum
+IfcWorkCalendar
+IfcWorkTime
+
+IfcRelAssignsToControl
+IfcRelAssignsToProcess

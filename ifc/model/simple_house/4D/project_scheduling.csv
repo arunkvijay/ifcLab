@@ -1,0 +1,7 @@
+"Task Id","Task Name","Parent Task","Start Date","Duration","Lag","Predecessor","Sequence"
+"C1","Foundation","Construction",2024-01-01,"P10D",,,
+"C2","Column","Construction",2024-01-01,"P7D",,"C.1","FS"
+"C3","Wall","Construction",2024-01-01,"P15D",,"C.2","FS"
+"C4","Roof","Construction",2024-01-01,"P20D","P1D","C.3","FS"
+"C5","Door","Construction",2024-01-01,"P3D",,"C.4","FS"
+"C6","Window","Construction",2024-01-01,"P3D",,"C.5","SS"
